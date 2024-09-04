@@ -1,0 +1,55 @@
+@import './base.css';
+
+#app {
+  display: grid;
+  grid-template-columns: auto 1fr;
+
+  height: 100vh;
+}
+
+main {
+  padding: 24px 19px 41px 39px;
+  background-color: var(--grey-color);
+  overflow-x: hidden;
+}
+
+table {
+  display: block;
+}
+
+td {
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+
+}
+
+a {
+  color: var(--primary-blue-color);
+  text-decoration: none;
+  transition: .2s;
+}
+
+a:hover {
+  opacity: var(--defualt-opacity);
+}
+
+svg {
+  transition: .2s;
+  cursor: pointer;
+}
+
+svg:hover {
+  opacity: var(--defualt-opacity);
+}
